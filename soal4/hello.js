@@ -1,3 +1,14 @@
+/*
+	hello.js
+	Create textarea for visualization
+	Mid Exam of FI4278 Computation of Granular Systems
+	
+	Harianto Wibowo | hariantowb@gmail.com
+	
+	Include: <script src="hello.js"></script> in a HTML file
+	Execute: Refresh web browser viewing the HTML file
+*/
+
 //Define global variable for visual element
 var taIn;
 
