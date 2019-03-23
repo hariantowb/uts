@@ -264,9 +264,7 @@ function buttonClick() {
 		clearCanvas();
 		drawSystem();
 		btStart.disabled = false;
-		tout(taOut1, "Parameters are read\n");
-		tout(taOut1, "Slightly random grains position "
-			+ "are generated\n\n");
+		tout(taOut1, "Parameters are read\n\n");
 	} else if(cap == "Start") {
 		target.innerHTML = "Stop";
 		btRead.disabled = true;
@@ -281,7 +279,7 @@ function buttonClick() {
 		clearInterval(proc);
 	} else if(cap == "Info") {
 		tout(taOut1, "yukawa.js -- 20190323\n"
-			+ "Simulation of Yukawa Potential\n "
+			+ "Simulation of Yukawa Potential\n"
 			+ "on 2 Spherical Masses\n"
 			+ "Harianto Wibowo| "
 			+ "hariantowb@gmail"
